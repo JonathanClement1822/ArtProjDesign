@@ -9,7 +9,6 @@ public class MakingChoices : MonoBehaviour
     public GameObject TextBox;
     public GameObject Choice01;
     public GameObject Choice02;
-    public GameObject Choice03;
     public int ChoiceMade;
 
 
@@ -25,11 +24,6 @@ public class MakingChoices : MonoBehaviour
         ChoiceMade = 2;
     }
 
-    public void ChoiceOption3()
-    {
-        TextBox.GetComponent<Text>().text = "I'M PRETTY SURE THE NEXT ONE WILL MAKE YOU PICK!";
-        ChoiceMade = 3;
-    }
 
     void Update()
     {
@@ -37,7 +31,6 @@ public class MakingChoices : MonoBehaviour
         {
             Choice01.SetActive(false);
             Choice02.SetActive(false);
-            Choice03.SetActive(false);
         }
 
     }
