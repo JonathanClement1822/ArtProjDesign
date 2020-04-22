@@ -191,7 +191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 489, y: -107}
+  m_AnchoredPosition: {x: 431, y: -100}
   m_SizeDelta: {x: 683.10974, y: 683.10974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &259118819
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 979907251}
   - component: {fileID: 979907253}
   m_Layer: 5
-  m_Name: LeapordImage
+  m_Name: LeopardImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -295,7 +295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -370, y: -114}
+  m_AnchoredPosition: {x: -428, y: -107}
   m_SizeDelta: {x: 684.6194, y: 684.6194}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &979907251
@@ -382,7 +382,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -370, y: -114}
+  m_AnchoredPosition: {x: -428, y: -107}
   m_SizeDelta: {x: 684.6179, y: 684.6212}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1035458145
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 1511597656}
   - component: {fileID: 1511597655}
   m_Layer: 5
-  m_Name: LeapordInfo
+  m_Name: LeopardInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -646,7 +646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.99994, y: -114}
+  m_AnchoredPosition: {x: -427.99994, y: -107}
   m_SizeDelta: {x: 684.6194, y: 684.6194}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511597655
@@ -856,25 +856,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
     m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 8
     m_MaxSize: 80
-    m_Alignment: 1
-    m_AlignByGeometry: 0
+    m_Alignment: 4
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What's the next image that'll make you popular!
+  m_Text: What's the next image that'll make you popular?
 --- !u!222 &2006775112
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -899,8 +899,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23, y: 374.55994}
-  m_SizeDelta: {x: 1377.7986, y: 240.12933}
+  m_AnchoredPosition: {x: -7.397999, y: 389}
+  m_SizeDelta: {x: 1525.8215, y: 226.6726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2125669384
 GameObject:
@@ -937,7 +937,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 488.99997, y: -107}
+  m_AnchoredPosition: {x: 430.99997, y: -100}
   m_SizeDelta: {x: 683.10974, y: 683.10974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2125669386
