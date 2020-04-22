@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Controls : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //This allows you to move from the controls menu, back to the main menu
     public void Controls2()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 11);

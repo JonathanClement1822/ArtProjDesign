@@ -5,42 +5,28 @@ using UnityEngine.UI;
 
 public class CheckInfo : MonoBehaviour
 {
+    /*This allows you to drag and drop an image from the inspector. put this on code on the image you want to hide, 
+    then drag the same image onto the code in the inspector*/
     public Image image;
-    //public Image imageInfo;
-    //public Image image2;
-    //public Image imageInfo2;
-    void Start()
-    {
-       
-    }
 
+    //Code is in update so that it keeps checking if the key is held down or not
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.B)) {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
 
-            //First Image
+            //This changes the images alpha(Oppacity) to 0% when key is held
             image = GetComponent<Image>();
             image.color = new Color(image.color.r, image.color.g, image.color.b, 0f);
-           // imageInfo = GetComponent<Image>();
-            //imageInfo.color = new Color(imageInfo.color.r, imageInfo.color.g, imageInfo.color.b, 100f);
-            //Second Image
-            //image2 = GetComponent<Image>();
-            //image2.color = new Color(image2.color.r, image2.color.g, image2.color.b, 0f);
-            //imageInfo2 = GetComponent<Image>();
-            //imageInfo2.color = new Color(imageInfo2.color.r, imageInfo2.color.g, imageInfo2.color.b, 100f);
+
 
         }
-        if (Input.GetKeyUp(KeyCode.B)) {
+        if (Input.GetKeyUp(KeyCode.B))
+        {
 
-            //FirstImage
+            //This changes the images alpha(Oppacity) to 100% when key is released
             image = GetComponent<Image>();
             image.color = new Color(image.color.r, image.color.g, image.color.b, 100f);
-            //imageInfo = GetComponent<Image>();
-            //imageInfo.color = new Color(image.color.r, image.color.g, image.color.b, 0f);
-            //image2 = GetComponent<Image>();
-            //image2.color = new Color(image2.color.r, image2.color.g, image2.color.b, 100f);
-            //imageInfo2 = GetComponent<Image>();
-            //imageInfo2.color = new Color(imageInfo2.color.r, imageInfo2.color.g, imageInfo2.color.b, 0f);
 
 
         }

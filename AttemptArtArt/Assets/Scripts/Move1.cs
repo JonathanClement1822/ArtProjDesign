@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Move1 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //This moves to the next scene, This happens when this code is connected to a button object
     public void MovePlus1()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
