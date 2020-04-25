@@ -20,7 +20,7 @@ public class Scoring : MonoBehaviour
     void Update()
     {
         //This restricts the scene from changing when you reach the last one
-        if (SceneManager.GetActiveScene().buildIndex >= 10)
+        if (SceneManager.GetActiveScene().buildIndex >= 13)
         {
 
             Debug.Log("Reached The end!");

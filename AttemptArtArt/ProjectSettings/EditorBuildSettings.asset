@@ -36,6 +36,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Colored/Snake.unity
     guid: f16aa253c87a4734c900c03928b80fbc
   - enabled: 1
+    path: Assets/Scenes/Actual/FourthImage.unity
+    guid: 279115cbca139b44fbc249549946e43d
+  - enabled: 1
+    path: Assets/Scenes/Colored/Tree.unity
+    guid: a10773ecf242741e8a7feb8c6a92e299
+  - enabled: 1
+    path: Assets/Scenes/Colored/Wolf.unity
+    guid: 812ca043c7b884246bb293f5e53f863a
+  - enabled: 1
     path: Assets/Scenes/End.unity
     guid: 3d0569d5e9305834fbae9df2848a13be
   - enabled: 1
