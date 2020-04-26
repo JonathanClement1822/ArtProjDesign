@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Colored/Wolf.unity
     guid: 812ca043c7b884246bb293f5e53f863a
   - enabled: 1
+    path: Assets/Scenes/Pre-Results.unity
+    guid: adabf5713d728a742ac5403712971849
+  - enabled: 1
     path: Assets/Scenes/End.unity
     guid: 3d0569d5e9305834fbae9df2848a13be
   - enabled: 1

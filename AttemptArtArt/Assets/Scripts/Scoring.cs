@@ -13,20 +13,19 @@ public class Scoring : MonoBehaviour
     static public int finalVal = 0;
     void Start()
     {
-        
+        if (SceneManager.GetActiveScene().buildIndex >= 14)
+        {
+
+            Debug.Log("Reached The end!");
+
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         //This restricts the scene from changing when you reach the last one
-        if (SceneManager.GetActiveScene().buildIndex >= 13)
-        {
-
-            Debug.Log("Reached The end!");
-
-        }
-        else
+        if (SceneManager.GetActiveScene().buildIndex != 14 || SceneManager.GetActiveScene().buildIndex != 13)
         {
             //This Changes the Scene to the next one. Checks for a '1' key press
             if (Input.GetKeyDown(KeyCode.Alpha1))

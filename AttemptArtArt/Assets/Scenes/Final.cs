@@ -20,6 +20,7 @@ public class Final : MonoBehaviour
         ScoreFinal = Scoring.finalVal;
         ScoreText.text = Score.ToString();
         ScoreFinalText.text = ScoreFinal.ToString();
+        Debug.Log(Scoring.Pic2);
 
 
 
